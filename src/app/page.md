@@ -1,112 +1,92 @@
 ---
 title: Getting started
+description: "Learn the basics of using CoachBase to manage clients, schedule sessions, and run your coaching practice."
 ---
 
-Learn how to get CacheAdvance set up in your project in under thirty minutes or it's free. {% .lead %}
+CoachBase is a coaching CRM for independent coaches. Use this help center to learn how to manage clients, schedule sessions, share your booking page, and stay organized inside the app. {% .lead %}
 
 {% quick-links %}
 
-{% quick-link title="Installation" icon="installation" href="/" description="Step-by-step guides to setting up your system and installing the library." /%}
+{% quick-link title="Manage clients" icon="installation" href="/docs/features/clients/overview" description="Learn how to view clients, update stages, and keep every relationship organized." /%}
 
-{% quick-link title="Architecture guide" icon="presets" href="/" description="Learn how the internals work and contribute." /%}
+{% quick-link title="Use scheduling" icon="presets" href="/docs/features/scheduling/overview" description="Set up availability, manage sessions, and understand how scheduling works in CoachBase." /%}
 
-{% quick-link title="Plugins" icon="plugins" href="/" description="Extend the library with third-party plugins or write your own." /%}
+{% quick-link title="Set up meeting types" icon="plugins" href="/docs/features/scheduling/meeting-types" description="Create the session options clients can book and control duration, location, and intake questions." /%}
 
-{% quick-link title="API reference" icon="theming" href="/" description="Learn to easily customize and modify your app's visual design to fit your brand." /%}
+{% quick-link title="Share your booking page" icon="theming" href="/docs/features/scheduling/booking-page" description="See what clients experience when they book with you and how public booking links work." /%}
 
 {% /quick-links %}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste.
+## Start here
+
+If you are new to CoachBase, this is the simplest way to get set up:
+
+1. Complete your coach profile so your booking page shows the right name, photo, and bio.
+2. Add your first clients or import them if you are moving from another system.
+3. Create meeting types so clients can book the right kind of session.
+4. Set your weekly availability and connect your calendar.
+5. Share your booking link or create sessions manually from inside the app.
+
+You do not need any developer setup to use CoachBase. These docs are written for coaches and team members using the product day to day.
 
 ---
 
-## Quick start
+## What you can do in CoachBase
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+CoachBase helps you run your coaching practice in one place:
 
-### Installing dependencies
+- Track leads and active clients
+- View client details, history, notes, goals, and tasks
+- Create and manage coaching sessions
+- Offer public booking links for clients
+- Control your availability and avoid calendar conflicts
+- Review session notes and AI insights where available
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+---
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+## Recommended learning path
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+### 1. Learn the client workspace
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+Start with the **Clients** section if you want to understand how CoachBase organizes your relationships.
+
+- Read [Client List Overview](/Users/josh/Projects/coachbase-docs/src/app/docs/features/clients/overview/page.md)
+- Then review [Adding Clients](/Users/josh/Projects/coachbase-docs/src/app/docs/features/clients/adding-clients/page.md)
+- Next, open [Client Details](/Users/josh/Projects/coachbase-docs/src/app/docs/features/clients/client-details/page.md)
+
+### 2. Set up scheduling
+
+Once your clients are in the system, move to the scheduling guides.
+
+- Start with [Scheduling Overview](/Users/josh/Projects/coachbase-docs/src/app/docs/features/scheduling/overview/page.md)
+- Then read [Meeting Types](/Users/josh/Projects/coachbase-docs/src/app/docs/features/scheduling/meeting-types/page.md)
+- Continue with [Setting Your Availability](/Users/josh/Projects/coachbase-docs/src/app/docs/features/scheduling/availability/page.md)
+- Finish with [Calendar Connections](/Users/josh/Projects/coachbase-docs/src/app/docs/features/scheduling/calendar-connections/page.md)
+
+### 3. Publish your booking flow
+
+When your scheduling settings are ready, review how client booking works.
+
+- Read [Public Booking Page](/Users/josh/Projects/coachbase-docs/src/app/docs/features/scheduling/booking-page/page.md)
+- Then use [Creating & Managing Sessions](/Users/josh/Projects/coachbase-docs/src/app/docs/features/scheduling/creating-sessions/page.md) for manual scheduling and ongoing session management
+
+{% callout title="Tip" %}
+If you are trying to complete one specific task, use the left navigation to jump straight to that topic instead of reading the docs in order.
 {% /callout %}
 
-### Configuring the library
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
-
 ---
 
-## Basic usage
+## Common first questions
 
-Praesentium laudantium magni. Consequatur reiciendis aliquid nihil iusto ut in et. Quisquam ut et aliquid occaecati. Culpa veniam aut et voluptates amet perspiciatis. Qui exercitationem in qui. Vel qui dignissimos sit quae distinctio.
+### Where should I begin if I just created my account?
 
-### Your first cache
+Start with your client list and scheduling setup. Most coaches first need to add clients, create meeting types, and set availability before sharing a booking link.
 
-Minima vel non iste debitis. Consequatur repudiandae et quod accusamus sit molestias consequatur aperiam. Et sequi ipsa eum voluptatibus ipsam. Et quisquam ut.
+### Do these docs cover the coach-facing app or the client booking experience?
 
-Qui quae esse aspernatur fugit possimus. Quam sed molestiae temporibus. Eum perferendis dignissimos provident ea et. Et repudiandae quasi accusamus consequatur dolore nobis. Quia reiciendis necessitatibus a blanditiis iste quia. Ut quis et amet praesentium sapiente.
+Both. Most pages explain the coach-facing workflow inside CoachBase, and the booking page guide explains what your clients see when they book with you.
 
-Atque eos laudantium. Optio odit aspernatur consequuntur corporis soluta quidem sunt aut doloribus. Laudantium assumenda commodi.
+### What if I only need help with one feature?
 
-### Clearing the cache
+Use the sidebar navigation to jump directly to the relevant section, such as **Clients** or **Scheduling**.
 
-Vel aut velit sit dolor aut suscipit at veritatis voluptas. Laudantium tempore praesentium. Qui ut voluptatem.
-
-Ea est autem fugiat velit esse a alias earum. Dolore non amet soluta eos libero est. Consequatur qui aliquam qui odit eligendi ut impedit illo dignissimos.
-
-Ut dolore qui aut nam. Natus temporibus nisi voluptatum labore est ex error vel officia. Vero repellendus ut. Suscipit voluptate et placeat. Eius quo corporis ab et consequatur quisquam. Nihil officia facere dolorem occaecati alias deleniti deleniti in.
-
-### Adding middleware
-
-Officia nobis tempora maiores id iusto magni reprehenderit velit. Quae dolores inventore molestiae perspiciatis aut. Quis sequi officia quasi rem officiis officiis. Nesciunt ut cupiditate. Sunt aliquid explicabo enim ipsa eum recusandae. Vitae sunt eligendi et non beatae minima aut.
-
-Harum perferendis aut qui quibusdam tempore laboriosam voluptatum qui sed. Amet error amet totam exercitationem aut corporis accusantium dolorum. Perspiciatis aut animi et. Sed unde error ut aut rerum.
-
-Ut quo libero aperiam mollitia est repudiandae quaerat corrupti explicabo. Voluptas accusantium sed et doloribus voluptatem fugiat a mollitia. Numquam est magnam dolorem asperiores fugiat. Soluta et fuga amet alias temporibus quasi velit. Laudantium voluptatum perspiciatis doloribus quasi facere. Eveniet deleniti veniam et quia veritatis minus veniam perspiciatis.
-
----
-
-## Getting help
-
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
-
-### Submit an issue
-
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
-
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
-
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
-
-### Join the community
-
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
-
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
-
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
