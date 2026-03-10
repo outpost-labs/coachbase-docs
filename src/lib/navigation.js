@@ -39,4 +39,15 @@ export const navigation = [
       { title: 'Recurring Invoices', href: '/docs/features/invoices/recurring-invoices' },
     ],
   },
+  {
+    title: 'Settings',
+    links: [
+      { title: 'Account Settings', href: '/docs/features/settings/account' },
+      { title: 'Security', href: '/docs/features/settings/security' },
+      { title: 'Integrations', href: '/docs/features/settings/integrations' },
+      { title: 'Billing & Subscription', href: '/docs/features/settings/billing' },
+      { title: 'Public Profile & Branding', href: '/docs/features/settings/public-profile' },
+      { title: 'Team Management', href: '/docs/features/settings/team' },
+    ],
+  },
 ]
