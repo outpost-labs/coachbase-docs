@@ -28,4 +28,15 @@ export const navigation = [
       { title: 'Session Notes & AI Insights', href: '/docs/features/scheduling/session-notes-insights' },
     ],
   },
+  {
+    title: 'Invoices',
+    links: [
+      { title: 'Invoices Overview', href: '/docs/features/invoices/overview' },
+      { title: 'Creating Invoices', href: '/docs/features/invoices/creating-invoices' },
+      { title: 'Invoice Details', href: '/docs/features/invoices/invoice-details' },
+      { title: 'Managing Invoices', href: '/docs/features/invoices/managing-invoices' },
+      { title: 'Payments & Refunds', href: '/docs/features/invoices/payments-and-refunds' },
+      { title: 'Recurring Invoices', href: '/docs/features/invoices/recurring-invoices' },
+    ],
+  },
 ]
