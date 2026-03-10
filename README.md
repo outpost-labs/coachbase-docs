@@ -1,44 +1,67 @@
-# Syntax
+# CoachBase Docs
 
-Syntax is a [Tailwind Plus](https://tailwindcss.com/plus) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Documentation site for CoachBase, the SaaS CRM for independent coaches.
 
-## Getting started
+This repo contains the public-facing help center and product documentation used by CoachBase customers. It is built as a static documentation site with Next.js and Markdoc.
 
-To get started with this template, first install the npm dependencies:
+## Architecture
+
+- `Next.js 16` with the App Router
+- `React 19`
+- `Markdoc` for markdown-driven docs pages
+- `Tailwind CSS 4` for styling
+- `FlexSearch` for local documentation search
+
+Content lives primarily in [`src/app`](/Users/josh/Projects/coachbase-docs/src/app), with product docs under [`src/app/docs`](/Users/josh/Projects/coachbase-docs/src/app/docs). Shared rendering for Markdoc lives in [`src/markdoc`](/Users/josh/Projects/coachbase-docs/src/markdoc) and reusable UI components live in [`src/components`](/Users/josh/Projects/coachbase-docs/src/components).
+
+## Getting Started
+
+Install dependencies with Bun:
 
 ```bash
-npm install
+bun install
 ```
 
-Next, run the development server:
+Start the local development server:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+The docs site runs locally at [http://localhost:3001](http://localhost:3001).
 
-## Customizing
+## Available Commands
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+```bash
+bun run dev
+bun run build
+bun run start
+bun run lint
+```
 
-## Global search
+## Writing Docs
 
-This template includes a global search that's powered by the [FlexSearch](https://github.com/nextapps-de/flexsearch) library. It's available by clicking the search input or by using the `⌘K` shortcut.
+Docs pages are authored as `page.md` files and rendered through Markdoc. Feature guides currently live under:
 
-This feature requires no configuration, and works out of the box by automatically scanning your documentation pages to build its index. You can adjust the search parameters by editing the `/src/markdoc/search.mjs` file.
+- [`src/app/docs/features/clients`](/Users/josh/Projects/coachbase-docs/src/app/docs/features/clients)
+- [`src/app/docs/features/scheduling`](/Users/josh/Projects/coachbase-docs/src/app/docs/features/scheduling)
 
-## License
+The homepage content is in [`src/app/page.md`](/Users/josh/Projects/coachbase-docs/src/app/page.md).
 
-This site template is a commercial product and is licensed under the [Tailwind Plus license](https://tailwindcss.com/plus/license).
+## Search
 
-## Learn more
+The site includes built-in local search powered by FlexSearch. The search index is generated from the Markdoc pages in this repo. Search indexing logic lives in [`src/markdoc/search.mjs`](/Users/josh/Projects/coachbase-docs/src/markdoc/search.mjs).
 
-To learn more about the technologies used in this site template, see the following resources:
+## Deployment
 
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [Markdoc](https://markdoc.io) - the official Markdoc documentation
-- [Algolia Autocomplete](https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete/) - the official Algolia Autocomplete documentation
-- [FlexSearch](https://github.com/nextapps-de/flexsearch) - the official FlexSearch documentation
+Production builds use the standard Next.js build:
+
+```bash
+bun run build
+```
+
+This project is currently deployed on Netlify.
+
+## Origins
+
+This repo started from the Tailwind Plus Syntax template, but it has been adapted into CoachBase's end-user documentation site.
