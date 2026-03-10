@@ -3,54 +3,29 @@ export const navigation = [
     title: 'Introduction',
     links: [
       { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Clients',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
-      {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
-      },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
-      {
-        title: 'Introduction to string theory',
-        href: '/docs/introduction-to-string-theory',
-      },
-      { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
+      { title: 'Client List Overview', href: '/docs/features/clients/overview' },
+      { title: 'Adding Clients', href: '/docs/features/clients/adding-clients' },
+      { title: 'Client Details', href: '/docs/features/clients/client-details' },
+      { title: 'Pipeline Stages', href: '/docs/features/clients/pipeline-stages' },
+      { title: 'Notes, Goals & Tasks', href: '/docs/features/clients/notes-goals-tasks' },
+      { title: 'Archiving & Managing Clients', href: '/docs/features/clients/archiving-clients' },
     ],
   },
   {
-    title: 'Advanced guides',
+    title: 'Scheduling',
     links: [
-      { title: 'Writing plugins', href: '/docs/writing-plugins' },
-      { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
-      { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-      { title: 'Testing', href: '/docs/testing' },
-      { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
-      {
-        title: 'Predictive data generation',
-        href: '/docs/predictive-data-generation',
-      },
-    ],
-  },
-  {
-    title: 'API reference',
-    links: [
-      { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
-      { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush' },
-      { title: 'CacheAdvance.revert()', href: '/docs/cacheadvance-revert' },
-      { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret' },
-    ],
-  },
-  {
-    title: 'Contributing',
-    links: [
-      { title: 'How to contribute', href: '/docs/how-to-contribute' },
-      { title: 'Architecture guide', href: '/docs/architecture-guide' },
-      { title: 'Design principles', href: '/docs/design-principles' },
+      { title: 'Scheduling Overview', href: '/docs/features/scheduling/overview' },
+      { title: 'Meeting Types', href: '/docs/features/scheduling/meeting-types' },
+      { title: 'Setting Your Availability', href: '/docs/features/scheduling/availability' },
+      { title: 'Calendar Connections', href: '/docs/features/scheduling/calendar-connections' },
+      { title: 'Creating & Managing Sessions', href: '/docs/features/scheduling/creating-sessions' },
+      { title: 'Public Booking Page', href: '/docs/features/scheduling/booking-page' },
+      { title: 'Session Notes & AI Insights', href: '/docs/features/scheduling/session-notes-insights' },
     ],
   },
 ]

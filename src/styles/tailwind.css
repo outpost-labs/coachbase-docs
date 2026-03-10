@@ -35,10 +35,21 @@
   --text-9xl--line-height: 1;
 
   --font-sans: var(--font-inter);
-  --font-display: var(--font-lexend);
-  --font-display--font-feature-settings: 'ss01';
+  --font-display: var(--font-canela), Georgia, serif;
 
   --container-8xl: 88rem;
+
+  --color-sky-50: oklch(96% 0.01 30);
+  --color-sky-100: oklch(92% 0.03 30);
+  --color-sky-200: oklch(85% 0.06 35);
+  --color-sky-300: oklch(76% 0.1 38);
+  --color-sky-400: oklch(65% 0.14 42);
+  --color-sky-500: oklch(54% 0.15 43);
+  --color-sky-600: oklch(48% 0.14 44);
+  --color-sky-700: oklch(42% 0.13 45);
+  --color-sky-800: oklch(35% 0.11 45);
+  --color-sky-900: oklch(28% 0.09 45);
+  --color-sky-950: oklch(22% 0.07 45);
 }
 
 @layer base {

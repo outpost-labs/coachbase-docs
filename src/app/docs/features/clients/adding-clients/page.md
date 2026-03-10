@@ -1,0 +1,49 @@
+---
+title: "Adding Clients"
+description: "Create a new client and set their pipeline stage."
+---
+
+Add clients to CoachBase to start tracking your coaching relationships, scheduling sessions, and sending invoices.
+
+## Creating a new client
+
+1. From the **Clients** page, click **Add Client** in the top right.
+2. Fill in the client's details.
+3. Click **Create Client**.
+
+![New client form with name, company, email, phone, status, and description fields](/images/clients/04-new-client-form.png)
+
+## Form fields
+
+- **Name** (required) -- The client's full name.
+- **Company** -- Their organization, if applicable.
+- **Job Title** -- Their role or title.
+- **Email** -- Used for session reminders, booking confirmations, and invoice delivery.
+- **Phone** -- A contact number for quick reference.
+- **Status** -- The initial pipeline stage. Defaults to **Lead**.
+- **Description** -- Free-text notes about the client's background, coaching goals, or other context.
+
+{% callout type="note" %}Email is optional, but clients without an email address won't receive session reminders or booking confirmations.{% /callout %}
+
+## Custom fields
+
+If your account is on the Pro plan, you can define custom fields that appear on every client record. These let you track additional information like referral source, industry, or coaching program.
+
+Custom fields support four types: text, number, date, and dropdown select. Manage your custom field definitions from **Clients > Settings > Custom Fields**.
+
+{% callout %}If you haven't defined any custom fields yet, the form shows a link to set them up.{% /callout %}
+
+## Importing clients via CSV
+
+For bulk imports, click **Import CSV** on the Clients page and upload a CSV file with your client data.
+
+## Frequently Asked Questions
+
+**Can I add a client without an email address?**
+Yes. Name is the only required field. However, you will need an email address to send session reminders, booking links, or invoices.
+
+**How do I change a client's stage after creating them?**
+You can change the stage from the client list (click the stage badge) or from the client detail page.
+
+**What happens if I add a client with the same email as an existing one?**
+Each client record is independent. CoachBase does not prevent duplicate email addresses, so you can have multiple client records if needed.

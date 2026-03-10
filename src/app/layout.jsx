@@ -13,27 +13,29 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-// Use local version of Lexend so that we can use OpenType features
-const lexend = localFont({
-  src: '../fonts/lexend.woff2',
+const canela = localFont({
+  src: [
+    { path: '../fonts/canelaweb-regular.woff', weight: '400', style: 'normal' },
+    { path: '../fonts/canelaweb-medium.woff', weight: '500', style: 'normal' },
+    { path: '../fonts/canelaweb-bold.woff', weight: '700', style: 'normal' },
+  ],
   display: 'swap',
-  variable: '--font-lexend',
+  variable: '--font-canela',
 })
 
 export const metadata = {
   title: {
     template: '%s - Docs',
-    default: 'CacheAdvance - Never miss the cache again.',
+    default: 'CoachBase - Documentation',
   },
-  description:
-    'Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.',
+  description: 'CoachBase documentation.',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={clsx('h-full antialiased', inter.variable, lexend.variable)}
+      className={clsx('h-full antialiased', inter.variable, canela.variable)}
       suppressHydrationWarning
     >
       <body className="flex min-h-full bg-white dark:bg-slate-900">
