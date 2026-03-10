@@ -4,10 +4,12 @@ import { Fragment } from 'react'
 import { Highlight } from 'prism-react-renderer'
 
 export function Fence({ children, language }) {
+  let normalizedLanguage = typeof language === 'string' ? language : 'text'
+
   return (
     <Highlight
       code={children.trimEnd()}
-      language={language}
+      language={normalizedLanguage}
       theme={{ plain: {}, styles: [] }}
     >
       {({ className, style, tokens, getTokenProps }) => (
