@@ -40,6 +40,18 @@ export const navigation = [
     ],
   },
   {
+    title: 'Analytics',
+    links: [
+      { title: 'Analytics Overview', href: '/docs/features/analytics/overview' },
+    ],
+  },
+  {
+    title: 'File Library',
+    links: [
+      { title: 'File Library', href: '/docs/features/file-library/overview' },
+    ],
+  },
+  {
     title: 'Settings',
     links: [
       { title: 'Account Settings', href: '/docs/features/settings/account' },
@@ -48,6 +60,12 @@ export const navigation = [
       { title: 'Billing & Subscription', href: '/docs/features/settings/billing' },
       { title: 'Public Profile & Branding', href: '/docs/features/settings/public-profile' },
       { title: 'Team Management', href: '/docs/features/settings/team' },
+    ],
+  },
+  {
+    title: 'Referrals',
+    links: [
+      { title: 'Referrals', href: '/docs/features/referrals/overview' },
     ],
   },
 ]
