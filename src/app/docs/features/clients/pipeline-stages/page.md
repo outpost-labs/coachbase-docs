@@ -55,7 +55,9 @@ You can rename any stage to match your coaching practice terminology. For exampl
 
 Leave a field blank to use the default name. Your custom labels appear everywhere stages are shown -- in the client list, detail pages, and filter dropdowns.
 
-{% callout type="note" %}Custom labels are account-wide. All team members will see the same stage names.{% /callout %}
+{% callout type="note" %}
+Custom labels are account-wide. All team members will see the same stage names.
+{% /callout %}
 
 ## Frequently Asked Questions
 

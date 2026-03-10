@@ -7,7 +7,9 @@ The **Analytics** page gives you a bird's-eye view of your coaching practice. It
 
 ![Analytics dashboard showing revenue cards, monthly chart, coaching activity, and client health](/images/analytics/01-overview.png)
 
-{% callout type="note" %}Analytics is available on the Pro plan and above. You also need the **View Analytics** permission enabled for your role.{% /callout %}
+{% callout type="note" %}
+Analytics is available on the Pro plan and above. You also need the **View Analytics** permission enabled for your role.
+{% /callout %}
 
 ## Filtering by period
 

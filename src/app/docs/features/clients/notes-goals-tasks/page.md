@@ -55,7 +55,9 @@ Tasks are actionable to-do items for you or your client.
 2. Click **Add Task** to create a new item.
 3. Mark tasks complete as they are finished.
 
-{% callout type="note" %}All notes, goals, and tasks appear in the client's Activity timeline, giving you a unified view of your coaching engagement.{% /callout %}
+{% callout type="note" %}
+All notes, goals, and tasks appear in the client's Activity timeline, giving you a unified view of your coaching engagement.
+{% /callout %}
 
 ## Frequently Asked Questions
 

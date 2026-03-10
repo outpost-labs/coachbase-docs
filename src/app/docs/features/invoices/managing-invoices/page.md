@@ -27,7 +27,9 @@ Click the pencil icon on any invoice that has not been paid, voided, cancelled, 
 - Due date
 - Notes
 
-{% callout type="warning" %}You cannot edit an invoice after it has been paid, voided, cancelled, or refunded. Create a new invoice instead.{% /callout %}
+{% callout type="warning" %}
+You cannot edit an invoice after it has been paid, voided, cancelled, or refunded. Create a new invoice instead.
+{% /callout %}
 
 ## Voiding an invoice
 
@@ -41,7 +43,9 @@ For **Sent** invoices, click the void icon (circle with a line) in the action ba
 
 Only **Draft** invoices can be deleted. Click the trash icon and confirm the deletion. This permanently removes the invoice.
 
-{% callout type="warning" %}Deleting an invoice is permanent and cannot be undone. Consider voiding sent invoices instead of deleting them to maintain a complete audit trail.{% /callout %}
+{% callout type="warning" %}
+Deleting an invoice is permanent and cannot be undone. Consider voiding sent invoices instead of deleting them to maintain a complete audit trail.
+{% /callout %}
 
 ## Status lifecycle
 

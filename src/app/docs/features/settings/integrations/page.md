@@ -33,7 +33,9 @@ Click **Connect** to authorize CoachBase with your Google account. Once connecte
 
 Click **Connect** to authorize CoachBase with your Microsoft account. Configuration is the same as Google Calendar.
 
-{% callout type="note" %}You can connect both Google Calendar and Outlook simultaneously. CoachBase checks all connected calendars for scheduling conflicts.{% /callout %}
+{% callout type="note" %}
+You can connect both Google Calendar and Outlook simultaneously. CoachBase checks all connected calendars for scheduling conflicts.
+{% /callout %}
 
 ## Video Conferencing
 

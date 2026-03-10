@@ -11,7 +11,9 @@ The **File Library** is a central place to store and share documents with your c
 
 Your account has a 5 GB storage soft cap. The **Storage Capacity** bar at the top of the page shows your current usage as a percentage. The exact usage is also displayed in the header next to the **Share** and **Upload** buttons.
 
-{% callout type="warning" %}When you approach the storage limit, a warning banner appears. Consider removing unused files to free up space.{% /callout %}
+{% callout type="warning" %}
+When you approach the storage limit, a warning banner appears. Consider removing unused files to free up space.
+{% /callout %}
 
 ## Uploading files
 

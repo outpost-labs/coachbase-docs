@@ -18,7 +18,9 @@ The **Security** tab lets you add two-factor authentication (2FA) to your accoun
 
 After enabling 2FA, CoachBase displays a set of one-time recovery codes. Save these immediately -- they are shown only once.
 
-{% callout type="warning" %}Store your recovery codes in a safe place before leaving the page. Each code can only be used once, and they are your backup if you lose access to your authenticator app.{% /callout %}
+{% callout type="warning" %}
+Store your recovery codes in a safe place before leaving the page. Each code can only be used once, and they are your backup if you lose access to your authenticator app.
+{% /callout %}
 
 ## Managing 2FA after setup
 

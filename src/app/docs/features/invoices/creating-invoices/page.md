@@ -39,7 +39,9 @@ To create a recurring invoice, check **Make this recurring** at the bottom of th
 4. Choose when each generated invoice is **due** relative to its send date (same day, 7 days, 14 days, 30 days, or 60 days)
 5. Toggle **Auto-send when generated** to automatically email each invoice on its generation date
 
-{% callout type="note" %}When you check "Make this recurring," CoachBase creates a recurring invoice schedule rather than a single invoice. Individual invoices are generated automatically on schedule.{% /callout %}
+{% callout type="note" %}
+When you check "Make this recurring," CoachBase creates a recurring invoice schedule rather than a single invoice. Individual invoices are generated automatically on schedule.
+{% /callout %}
 
 ## Frequently Asked Questions
 

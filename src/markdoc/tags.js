@@ -1,7 +1,15 @@
 import { Callout } from '@/components/Callout'
+import { ColorSwatch } from '@/components/ColorSwatch'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
 const tags = {
+  'color-swatch': {
+    selfClosing: true,
+    render: ColorSwatch,
+    attributes: {
+      color: { type: String, required: true },
+    },
+  },
   callout: {
     attributes: {
       title: { type: String },

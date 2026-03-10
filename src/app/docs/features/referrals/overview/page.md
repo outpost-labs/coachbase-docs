@@ -35,7 +35,9 @@ If you have referrals, a history table appears below the stats showing each refe
 
 ## How credits work
 
-{% callout type="note" %}Referral credits are applied toward your subscription cost only. They cannot be used to cover payment processing fees.{% /callout %}
+{% callout type="note" %}
+Referral credits are applied toward your subscription cost only. They cannot be used to cover payment processing fees.
+{% /callout %}
 
 Credits are automatically applied to your next billing cycle. You can continue earning credits with no limit on the number of referrals.
 

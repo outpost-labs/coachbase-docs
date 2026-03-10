@@ -7,7 +7,9 @@ The **Team** tab lets you invite other coaches to collaborate under your account
 
 ![Team settings showing invite form and current members list](/images/settings/06-team.png)
 
-{% callout type="note" %}Team management is available on the Practice plan. On lower tiers, this tab shows an upgrade prompt with details about team features.{% /callout %}
+{% callout type="note" %}
+Team management is available on the Practice plan. On lower tiers, this tab shows an upgrade prompt with details about team features.
+{% /callout %}
 
 ## Inviting a team member
 

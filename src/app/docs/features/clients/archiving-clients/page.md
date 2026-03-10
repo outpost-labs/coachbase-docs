@@ -21,7 +21,9 @@ Archiving removes a client from your default client list without deleting their 
 2. Click the archive icon in the top right action bar.
 3. The client moves to the **Archived** filter view.
 
-{% callout type="warning" %}Archiving is not the same as deleting. All client history is fully preserved and accessible.{% /callout %}
+{% callout type="warning" %}
+Archiving is not the same as deleting. All client history is fully preserved and accessible.
+{% /callout %}
 
 ### Viewing archived clients
 
@@ -37,7 +39,9 @@ The client returns to their previous stage and reappears in the main client list
 
 ## Custom fields
 
-{% callout %}Custom fields are available on the Pro plan.{% /callout %}
+{% callout %}
+Custom fields are available on the Pro plan.
+{% /callout %}
 
 Custom fields let you track additional information on every client record -- referral source, industry, coaching program, or anything specific to your practice.
 

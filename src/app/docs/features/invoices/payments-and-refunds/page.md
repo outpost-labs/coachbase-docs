@@ -31,7 +31,9 @@ After a successful Stripe payment:
 
 For **Sent** invoices, click **Collect Deposit** to create a payment link for a partial amount. Enter the deposit amount and click **Create deposit link**. This is useful when you want to collect a portion of the invoice upfront.
 
-{% callout type="note" %}The Collect Deposit button only appears when Stripe is connected. Connect Stripe from the Payments page (accessible via the gear menu on the invoices list).{% /callout %}
+{% callout type="note" %}
+The Collect Deposit button only appears when Stripe is connected. Connect Stripe from the Payments page (accessible via the gear menu on the invoices list).
+{% /callout %}
 
 ## Issuing a refund
 
@@ -47,7 +49,9 @@ You can issue a full refund or a partial refund by adjusting the amount. After a
 - A full refund changes the status to **Refunded**
 - A partial refund updates the payment breakdown while keeping the Paid status
 
-{% callout type="warning" %}Refunds are processed through Stripe and cannot be reversed once issued.{% /callout %}
+{% callout type="warning" %}
+Refunds are processed through Stripe and cannot be reversed once issued.
+{% /callout %}
 
 ## Frequently Asked Questions
 

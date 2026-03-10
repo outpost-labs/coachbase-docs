@@ -36,7 +36,9 @@ The **Danger Zone** section at the bottom contains the account deletion option.
 3. Check all three confirmation boxes acknowledging that your data will be permanently deleted
 4. Click **Delete my account**
 
-{% callout type="warning" %}Account deletion is permanent. All your clients, sessions, invoices, notes, and associated data will be removed and cannot be recovered. Charges already processed through Stripe are not affected.{% /callout %}
+{% callout type="warning" %}
+Account deletion is permanent. All your clients, sessions, invoices, notes, and associated data will be removed and cannot be recovered. Charges already processed through Stripe are not affected.
+{% /callout %}
 
 ## Frequently Asked Questions
 

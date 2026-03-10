@@ -68,4 +68,23 @@ export const navigation = [
       { title: 'Referrals', href: '/docs/features/referrals/overview' },
     ],
   },
+  {
+    title: 'Command Palette',
+    links: [
+      { title: 'Command Palette', href: '/docs/features/command-palette/overview' },
+    ],
+  },
+  {
+    title: 'Style Guide',
+    links: [
+      { title: 'Style Guide', href: '/docs/style-guide' },
+    ],
+  },
+  {
+    title: 'Data Import',
+    links: [
+      { title: 'Data Import Overview', href: '/docs/features/data-import/overview' },
+      { title: 'Importing from Ramsey', href: '/docs/features/data-import/ramsey-import' },
+    ],
+  },
 ]

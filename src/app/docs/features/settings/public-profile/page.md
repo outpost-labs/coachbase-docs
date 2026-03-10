@@ -64,7 +64,9 @@ Set two colors for your brand:
 
 Click the color picker to choose custom values, or click **Reset to defaults** to return to CoachBase's default palette.
 
-{% callout type="note" %}Custom branding is available on the Pro plan and above. On the Solo plan, a link to upgrade is shown instead of the branding controls.{% /callout %}
+{% callout type="note" %}
+Custom branding is available on the Pro plan and above. On the Solo plan, a link to upgrade is shown instead of the branding controls.
+{% /callout %}
 
 ## Frequently Asked Questions
 

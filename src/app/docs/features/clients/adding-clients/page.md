@@ -23,7 +23,9 @@ Add clients to CoachBase to start tracking your coaching relationships, scheduli
 - **Status** -- The initial pipeline stage. Defaults to **Lead**.
 - **Description** -- Free-text notes about the client's background, coaching goals, or other context.
 
-{% callout type="note" %}Email is optional, but clients without an email address won't receive session reminders or booking confirmations.{% /callout %}
+{% callout type="note" %}
+Email is optional, but clients without an email address won't receive session reminders or booking confirmations.
+{% /callout %}
 
 ## Custom fields
 
@@ -31,7 +33,9 @@ If your account is on the Pro plan, you can define custom fields that appear on 
 
 Custom fields support four types: text, number, date, and dropdown select. Manage your custom field definitions from **Clients > Settings > Custom Fields**.
 
-{% callout %}If you haven't defined any custom fields yet, the form shows a link to set them up.{% /callout %}
+{% callout %}
+If you haven't defined any custom fields yet, the form shows a link to set them up.
+{% /callout %}
 
 ## Importing clients via CSV
 

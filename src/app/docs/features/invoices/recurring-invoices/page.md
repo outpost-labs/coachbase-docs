@@ -41,7 +41,9 @@ To create a recurring invoice schedule, open the **New Invoice** modal and check
 - **Due date offset** -- How many days after generation each invoice is due (same day, 7, 14, 30, or 60 days)
 - **Auto-send** -- Whether to automatically email each generated invoice
 
-{% callout type="note" %}If neither an end date nor a max invoice count is set, the recurring schedule runs indefinitely until you pause or cancel it.{% /callout %}
+{% callout type="note" %}
+If neither an end date nor a max invoice count is set, the recurring schedule runs indefinitely until you pause or cancel it.
+{% /callout %}
 
 ## Managing a recurring schedule
 
