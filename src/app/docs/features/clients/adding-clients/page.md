@@ -7,7 +7,7 @@ Add clients to CoachBase to start tracking your coaching relationships, scheduli
 
 ## Creating a new client
 
-1. From the **Clients** page, click **Add Client** in the top right.
+1. From the **Clients** page, click **+ Add Client** in the top right.
 2. Fill in the client's details.
 3. Click **Create Client**.
 

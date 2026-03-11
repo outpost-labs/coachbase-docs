@@ -66,4 +66,4 @@ Yes, but archiving is recommended. Deleting permanently removes the client and a
 No. Archived clients do not appear in your active client list or affect any plan limits.
 
 **Can I bulk-archive multiple clients at once?**
-Currently, clients must be archived individually from their detail page or from the list row actions.
+Yes. Select multiple clients using the checkboxes on the client list, then click the archive icon in the bulk actions bar that appears.
