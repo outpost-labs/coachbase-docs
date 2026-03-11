@@ -87,4 +87,14 @@ export const navigation = [
       { title: 'Importing from Ramsey', href: '/docs/features/data-import/ramsey-import' },
     ],
   },
+  {
+    title: 'Workflows',
+    links: [
+      { title: 'Workflows Overview', href: '/docs/features/workflows/overview' },
+      { title: 'Creating a Workflow', href: '/docs/features/workflows/creating-workflows' },
+      { title: 'Using Workflow Templates', href: '/docs/features/workflows/templates' },
+      { title: 'Managing Workflows', href: '/docs/features/workflows/managing-workflows' },
+      { title: 'Actions and Conditions', href: '/docs/features/workflows/actions-and-conditions' },
+    ],
+  },
 ]
