@@ -97,4 +97,10 @@ export const navigation = [
       { title: 'Actions and Conditions', href: '/docs/features/workflows/actions-and-conditions' },
     ],
   },
+  {
+    title: 'Changelog',
+    links: [
+      { title: 'Changelog', href: '/docs/changelog' },
+    ],
+  },
 ]
