@@ -9,9 +9,15 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ## March 12, 2026
 
-- Simplified onboarding from 7 steps down to 3 -- getting started is now faster than ever
+- Laying the groundwork for CoachBase iOS and Android native apps powered by Hotwire Native — coming soon
+- Added help page in your profile menu linking to documentation and resources
+- Simplified onboarding from 7 steps down to 3 — getting started is now faster than ever
 - Added a Getting Started checklist to help new coaches hit the ground running
 - Added helpful placeholder empty states across the dashboard so you always know what to do next
+- Fixed critical issue where Stripe Connect would get stuck when navigating the billing page via the app
+- Session type creation now saves your availability settings properly
+- Better onboarding flow that takes you directly to billing if you need to choose a plan
+- Improved product tour highlighting your automation capabilities
 
 ## March 11, 2026
 
