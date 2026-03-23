@@ -17,6 +17,17 @@ export const navigation = [
     ],
   },
   {
+    title: 'Client Portal',
+    links: [
+      { title: 'Portal Overview', href: '/docs/features/client-portal/overview' },
+      { title: 'Client Login', href: '/docs/features/client-portal/client-login' },
+      { title: 'Portal Dashboard', href: '/docs/features/client-portal/dashboard' },
+      { title: 'Sessions', href: '/docs/features/client-portal/sessions' },
+      { title: 'Goals & Tasks', href: '/docs/features/client-portal/goals-and-tasks' },
+      { title: 'Files & Messages', href: '/docs/features/client-portal/files-and-messages' },
+    ],
+  },
+  {
     title: 'Scheduling',
     links: [
       { title: 'Scheduling Overview', href: '/docs/features/scheduling/overview' },
