@@ -3,6 +3,7 @@ export const navigation = [
     title: 'Introduction',
     links: [
       { title: 'Getting started', href: '/' },
+      { title: 'Changelog', href: '/docs/changelog' },
     ],
   },
   {
@@ -106,12 +107,6 @@ export const navigation = [
       { title: 'Using Workflow Templates', href: '/docs/features/workflows/templates' },
       { title: 'Managing Workflows', href: '/docs/features/workflows/managing-workflows' },
       { title: 'Actions and Conditions', href: '/docs/features/workflows/actions-and-conditions' },
-    ],
-  },
-  {
-    title: 'Changelog',
-    links: [
-      { title: 'Changelog', href: '/docs/changelog' },
     ],
   },
 ]

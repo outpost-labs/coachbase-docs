@@ -15,6 +15,8 @@ CoachBase is a coaching CRM for independent coaches. Use this help center to lea
 
 {% quick-link title="Share your booking page" icon="theming" href="/docs/features/scheduling/booking-page" description="See what clients experience when they book with you and how public booking links work." /%}
 
+{% quick-link title="Changelog" icon="installation" href="/docs/changelog" description="See what's new in CoachBase — recent updates, new features, and improvements." /%}
+
 {% /quick-links %}
 
 ## Start here
