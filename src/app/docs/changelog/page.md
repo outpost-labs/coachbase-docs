@@ -7,6 +7,25 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ---
 
+## March 23, 2026
+
+- New timeline view on the Sessions page — see your schedule grouped by week with day markers, a "Today" indicator, and gap detection for unbooked stretches. Switch between Timeline and List views anytime.
+- Your Analytics page now opens with a plain-English summary of your month that adapts to your data — no more mental math to figure out how things are going
+- Session cards now lead with the client name instead of "Coaching Session" — much easier to scan your schedule at a glance
+- Streamlined the dashboard by removing the "Coming Up" section — your Today's Sessions card already has you covered
+
+## March 20, 2026
+
+- Your clients can now log into a secure, branded portal — magic link sign-in, no password needed
+- Clients get their own dashboard with upcoming sessions, active goals, recent tasks, unread messages, and a one-click session join banner
+- Clients can review their full session history, read session recaps, and add pre-session prep notes
+- Goal tracking with progress indicators so clients can see how they're doing between sessions
+- Clients can download files you've shared and message you directly from the portal
+- You control exactly what each client sees — enable or disable portal sections per account or per client
+- Added file search to the command palette — find uploaded files by name
+- Search results in the command palette are now grouped by type with section headers for easier scanning
+- Added a visual search trigger in the nav bar so the command palette is always one click away
+
 ## March 12, 2026
 
 - Laying the groundwork for CoachBase iOS and Android native apps powered by Hotwire Native — coming soon
