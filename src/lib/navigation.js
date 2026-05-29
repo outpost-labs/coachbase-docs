@@ -109,4 +109,12 @@ export const navigation = [
       { title: 'Actions and Conditions', href: '/docs/features/workflows/actions-and-conditions' },
     ],
   },
+  {
+    title: 'Practice Health Score',
+    links: [
+      { title: 'Practice Health Score', href: '/docs/features/practice-health-score/overview' },
+      { title: 'Taking the Assessment', href: '/docs/features/practice-health-score/taking-the-assessment' },
+      { title: 'Understanding Your Results', href: '/docs/features/practice-health-score/understanding-results' },
+    ],
+  },
 ]

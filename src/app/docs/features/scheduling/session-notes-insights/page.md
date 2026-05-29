@@ -23,6 +23,14 @@ The editor supports full formatting:
 - **Text alignment** options
 - **Undo** and **redo**
 
+### Text colors and highlights
+
+Use the highlight tool in the toolbar to apply a **text color** or a **highlight** to selected text. Your color choices are saved with the rest of your formatting and stay in place when you reopen the session. To remove a color and return text to normal, select the text and use the highlight tool's reset option.
+
+{% callout type="note" %}
+Colors and highlights now persist when notes save, and can be cleared back to the default at any time.
+{% /callout %}
+
 ### Auto-Save
 
 Notes **auto-save** as you type. There is no manual save button — your notes are preserved automatically.
