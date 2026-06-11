@@ -41,52 +41,20 @@ Notes are private to you. Clients cannot see your session notes.
 
 ## AI Insights
 
-Below the notes section, you'll find the **AI Insights** panel. This feature uses AI to analyze session transcripts and surface actionable information.
+Below the notes section, you'll find the **AI Insights** panel. It analyzes your session transcripts and surfaces a summary, categorized notes, and follow-up action items.
 
 ![Session detail page with notes and AI insights](/images/scheduling/11-session-detail.png)
 
-### Generating Insights
-
-1. Open the session detail page.
-2. Scroll down to the **AI Insights** section.
-3. Upload a session **transcript** or **recording**.
-4. CoachBase processes the content and generates insights.
-
-### What AI Generates
-
-After processing, AI Insights provides three outputs:
-
-- **Summary** — A concise overview of what was discussed during the session.
-- **Key Notes** — Important points, themes, and observations from the conversation.
-- **Action Items** — Specific next steps and tasks identified from the discussion.
-
-### Converting Action Items to Tasks
-
-Action items identified by AI can be converted directly into client tasks:
-
-1. Review the generated action items.
-2. Click on an action item to convert it into a task.
-3. The task is automatically associated with the client.
-
-### Replacing a Transcript
-
-If you upload an updated or corrected transcript, the AI analysis runs again and replaces the previous insights. This is useful if you initially uploaded a partial transcript and later have the complete version.
+Transcripts come either automatically from CoachBase video calls or from a file you upload or text you paste. AI Insights is available on the **Pro** and **Practice** plans.
 
 {% callout type="note" %}
-AI Insights is available on **Pro plans**. Upgrade your plan to access transcript analysis and AI-generated summaries.
-{% /callout %}
-
-{% callout type="warning" %}
-AI-generated insights are meant to assist your practice, not replace your professional judgment. Always review the generated summary, notes, and action items for accuracy before sharing or acting on them.
+AI Insights has its own section of the docs. See **[Transcript AI Insights](/docs/features/transcript-ai-insights/overview)** for the full details — adding a transcript, reviewing what the AI generates, and replacing a transcript.
 {% /callout %}
 
 ## Frequently Asked Questions
 
-### What file formats are supported for transcript uploads?
-You can upload text-based transcript files or audio recordings. Supported formats include TXT, PDF, and common audio formats.
+### Are my session notes private?
+Yes. Your notes auto-save and are visible only to you — clients cannot see them.
 
-### Can I edit AI-generated insights after they are created?
-The AI-generated summary, key notes, and action items are read-only outputs. You can add your own observations and corrections in the Notes section above.
-
-### How long does AI analysis take?
-Processing typically completes within a few seconds for text transcripts. Audio recordings may take longer depending on the file length.
+### Where do I learn more about AI Insights?
+The [Transcript AI Insights](/docs/features/transcript-ai-insights/overview) section covers transcript sources, supported file formats, reviewing insights, and replacing a transcript.

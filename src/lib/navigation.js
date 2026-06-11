@@ -41,6 +41,15 @@ export const navigation = [
     ],
   },
   {
+    title: 'Transcript AI Insights',
+    links: [
+      { title: 'Overview', href: '/docs/features/transcript-ai-insights/overview' },
+      { title: 'Adding a Transcript', href: '/docs/features/transcript-ai-insights/adding-a-transcript' },
+      { title: 'Reviewing Insights', href: '/docs/features/transcript-ai-insights/reviewing-insights' },
+      { title: 'Replacing a Transcript', href: '/docs/features/transcript-ai-insights/replacing-a-transcript' },
+    ],
+  },
+  {
     title: 'Invoices',
     links: [
       { title: 'Invoices Overview', href: '/docs/features/invoices/overview' },
