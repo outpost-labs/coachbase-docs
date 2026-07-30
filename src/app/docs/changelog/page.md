@@ -7,6 +7,54 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ---
 
+## July 30, 2026
+
+- Every session now shows the delivery status of its confirmation, reminder, and cancellation emails right on the session page, and you can retry any that failed to send — [Learn more](/docs/features/scheduling/creating-sessions)
+- Sessions with no valid recipient now show those emails as "not applicable" rather than reporting them as delivered
+- Outlook calendar events now invite your contact directly, keep you as the organizer, update the attendee when you reschedule, and send a cancellation when you cancel — [Learn more](/docs/features/scheduling/calendar-connections)
+- Scheduling now stops with a clear, actionable message when the contact you picked has no valid email address, instead of failing quietly — [Learn more](/docs/features/scheduling/calendar-connections)
+- Contact name edits now save correctly from both the quick modal and the full edit page, including names with apostrophes and hyphens, and the first and last name fields stay in sync — [Learn more](/docs/features/clients/client-details)
+- Searching, filtering, and sorting your contacts now updates just the results table instead of reloading the page, so the search box keeps up as you type — [Learn more](/docs/features/clients/overview)
+- The "last activity" column now reflects a contact's most recent note even if they have no sessions booked — previously those contacts showed a blank date no matter how recently you'd written a note — [Learn more](/docs/features/clients/overview)
+- Fixed the errors that could stop flash messages, toasts, and the new-user trial signup flow from working after navigating between pages
+
+## July 17, 2026
+
+- Re-running a data import no longer creates duplicate invoices — bring in the same file twice and the second pass adds nothing new — [Learn more](/docs/features/data-import/overview)
+- Imports now finish on a proper completion screen instead of the progress bar snapping back to zero, so you can tell at a glance that everything landed — [Learn more](/docs/features/data-import/overview)
+- You can now delete paid invoices that were imported or manually marked paid, making it easy to clear out duplicates and mistakes — invoices with a real Stripe payment stay protected — [Learn more](/docs/features/invoices/managing-invoices)
+- Outlook calendar invites now carry the video-call join link, both in the event location and as a clickable link in the invite body — [Learn more](/docs/features/scheduling/calendar-connections)
+
+## July 16, 2026
+
+- Adding a client whose email address is already on file now shows a clear inline message instead of an error page, and clients with no email at all save without complaint — [Learn more](/docs/features/clients/adding-clients)
+- Completed video sessions no longer sit forever on "Processing your call recording…" when there was never a recording — you'll get a prompt to upload a transcript instead — [Learn more](/docs/features/scheduling/session-notes-insights)
+- Your dashboard loads noticeably faster — the "Needs Attention" cards now do about a quarter of the database work they used to, and it's the first thing you see after signing in
+- The client portal dashboard pulls up shared files in one pass rather than one at a time — [Learn more](/docs/features/client-portal/dashboard)
+
+## July 7, 2026
+
+- Fixed a crash on the session detail page for sessions that have a location but no scheduled time, such as a cancelled video call
+
+## June 11, 2026
+
+- Paste a session transcript straight into the AI Insights panel — no file required, so you can try the AI on any past session in seconds — [Learn more](/docs/features/transcript-ai-insights/adding-a-transcript)
+- AI session analysis is now client-aware: it sees open action items from earlier sessions and tells brand-new tasks apart from updates and completions, and nothing on a client's plan changes without your approval — [Learn more](/docs/features/transcript-ai-insights/reviewing-insights)
+- Replacing a transcript no longer wipes your work — completed tasks and existing notes stay put, and only the AI summary is regenerated — [Learn more](/docs/features/transcript-ai-insights/replacing-a-transcript)
+- Choosing a transcript file now shows "Uploading…" and then "Analyzing…" so the upload never feels stuck
+- If your subscription lapses you now get a dedicated access-paused screen with a 7-day grace period, a one-click export of your contacts, sessions, and invoices, and continued access to your account settings — [Learn more](/docs/features/settings/billing)
+- Your clients see a neutral "temporarily unavailable" page if your account is paused — never your billing situation — [Learn more](/docs/features/client-portal/overview)
+- Our Privacy Policy now spells out exactly how the Google Calendar integration handles your data: it reads only your busy times to prevent double-booking and writes the sessions you book, and never reads the contents of your events — [Learn more](/docs/features/settings/integrations)
+
+## May 29, 2026
+
+- Text colors and highlights in session notes now stick when you save, and you can clear formatting back to normal — [Learn more](/docs/features/scheduling/session-notes-insights)
+
+## April 7, 2026
+
+- Introducing the Practice Health Score — a free 15-question assessment that scores your practice across pipeline, sessions, financial health, client experience, and operations — [Learn more](/docs/features/practice-health-score/overview)
+- Your results include a category breakdown, personalized recommendations, and a shareable link so you can compare notes with other coaches — [Learn more](/docs/features/practice-health-score/understanding-results)
+
 ## March 23, 2026
 
 - New timeline view on the [Sessions](/docs/features/scheduling/creating-sessions) page — see your schedule grouped by week with day markers, a "Today" indicator, and gap detection for unbooked stretches. Switch between Timeline and List views anytime.
