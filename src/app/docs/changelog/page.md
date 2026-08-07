@@ -1,11 +1,20 @@
 ---
-title: "Changelog"
+title: 'Changelog'
 description: "Keep track of what's new and improved in CoachBase."
 ---
 
 We ship improvements to CoachBase regularly. Here's what's new.
 
 ---
+
+## August 7, 2026
+
+- CoachBase now emails you two days before your subscription renews with the renewal date and plan, plus the expected charge and payment method when available. [Manage billing](/docs/features/settings/billing)
+- [Analytics](/docs/features/analytics/overview) and [Workflows](/docs/features/workflows/overview) now show a useful preview and plan details when they are not included with your current subscription, instead of sending you away from the page
+- The newest message in each client email thread now appears first. [Learn more](/docs/features/clients/client-details)
+- Fixed an issue that could prevent some client edits from saving when the profile contained an old or removed custom field, and kept single or multi-word names from changing during unrelated edits. [Learn more](/docs/features/clients/client-details)
+- Fixed the Getting Started button remaining visible over the open checklist
+- Improved internal support and reporting tools so the CoachBase team can answer account and billing questions more quickly
 
 ## July 30, 2026
 
