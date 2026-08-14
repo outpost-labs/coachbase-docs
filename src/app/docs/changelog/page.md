@@ -7,6 +7,19 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ---
 
+## August 14, 2026
+
+- Contact profiles now use the modern detail layout by default, include custom fields and blank values, and let you copy email addresses and phone numbers with one click. Your saved layout preferences stay unchanged. [Learn more](/docs/features/clients/client-details)
+- Today's dashboard now separates upcoming sessions from sessions that need to be wrapped up, with direct actions for recording the outcome. The Sessions timeline also shows the newest weeks first. [Learn more](/docs/features/scheduling/creating-sessions)
+- Creating a session now includes a searchable contact picker with inline contact creation. You can also reschedule sessions with availability checks and updated calendar invitations and notifications. [Learn more](/docs/features/scheduling/creating-sessions)
+- Invoices and recurring plans are now clearly distinguished throughout billing. The creation flow defaults to a one-time invoice, recurring plans show saved payment details, and the first automatic-payment email explains the initial payment and future charges. [Learn more](/docs/features/invoices/recurring-invoices)
+- Paid public bookings now reserve the selected time during checkout and create the contact and session only after Stripe confirms payment. [Learn more](/docs/features/scheduling/booking-page)
+- Google and Outlook calendar connections now recover reliably when access tokens expire. Reconnecting Google Calendar restores missing future events, and failed confirmation syncs include a calendar-file fallback. [Learn more](/docs/features/scheduling/calendar-connections)
+- Transactional emails now use CoachBase and coach branding consistently, and client replies route back into the matching CoachBase conversation when possible. [Learn more](/docs/features/client-portal/files-and-messages)
+- Solo plans now include unlimited custom fields, and the billing page shows the plan limits CoachBase actually enforces. [Manage billing](/docs/features/settings/billing)
+- Invoice payments now receive stronger checkout verification, and accidental overpayments are refunded automatically. [Learn more](/docs/features/invoices/payments-and-refunds)
+- New trial accounts receive a welcome email, while accounts with a failed subscription payment receive reminders during the seven-day grace period. [Manage billing](/docs/features/settings/billing)
+
 ## August 7, 2026
 
 - CoachBase now emails you two days before your subscription renews with the renewal date and plan, plus the expected charge and payment method when available. [Manage billing](/docs/features/settings/billing)
