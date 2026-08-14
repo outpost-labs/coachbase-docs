@@ -9,50 +9,49 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ## August 14, 2026
 
-- Contact profiles now use the modern detail layout by default, include custom fields and blank values, and let you copy email addresses and phone numbers with one click. Your saved layout preferences stay unchanged. [Learn more](/docs/features/clients/client-details)
-- Today's dashboard now separates upcoming sessions from sessions that need to be wrapped up, with direct actions for recording the outcome. The Sessions timeline also shows the newest weeks first. [Learn more](/docs/features/scheduling/creating-sessions)
-- Creating a session now includes a searchable contact picker with inline contact creation. You can also reschedule sessions with availability checks and updated calendar invitations and notifications. [Learn more](/docs/features/scheduling/creating-sessions)
-- Invoices and recurring plans are now clearly distinguished throughout billing. The creation flow defaults to a one-time invoice, recurring plans show saved payment details, and the first automatic-payment email explains the initial payment and future charges. [Learn more](/docs/features/invoices/recurring-invoices)
-- Paid public bookings now reserve the selected time during checkout and create the contact and session only after Stripe confirms payment. [Learn more](/docs/features/scheduling/booking-page)
-- Google and Outlook calendar connections now recover reliably when access tokens expire. Reconnecting Google Calendar restores missing future events, and failed confirmation syncs include a calendar-file fallback. [Learn more](/docs/features/scheduling/calendar-connections)
-- Transactional emails now use CoachBase and coach branding consistently, and client replies route back into the matching CoachBase conversation when possible. [Learn more](/docs/features/client-portal/files-and-messages)
-- Solo plans now include unlimited custom fields, and the billing page shows the plan limits CoachBase actually enforces. [Manage billing](/docs/features/settings/billing)
-- Invoice payments now receive stronger checkout verification, and accidental overpayments are refunded automatically. [Learn more](/docs/features/invoices/payments-and-refunds)
-- New trial accounts receive a welcome email, while accounts with a failed subscription payment receive reminders during the seven-day grace period. [Manage billing](/docs/features/settings/billing)
+- [Contact profiles](/docs/features/clients/client-details) now use the modern detail layout by default, include custom fields and blank values, and let you copy email addresses and phone numbers with one click. Your saved layout preferences stay unchanged.
+- Today's dashboard now separates upcoming sessions from sessions that need to be wrapped up, with direct actions for recording the outcome. The [Sessions timeline](/docs/features/scheduling/creating-sessions) also shows the newest weeks first.
+- [Creating a session](/docs/features/scheduling/creating-sessions) now includes a searchable contact picker with inline contact creation. You can also reschedule sessions with availability checks and updated calendar invitations and notifications.
+- Invoices and [recurring plans](/docs/features/invoices/recurring-invoices) are now clearly distinguished throughout billing. The creation flow defaults to a one-time invoice, recurring plans show saved payment details, and the first automatic-payment email explains the initial payment and future charges.
+- Paid [public bookings](/docs/features/scheduling/booking-page) now reserve the selected time during checkout and create the contact and session only after Stripe confirms payment.
+- Google and Outlook [calendar connections](/docs/features/scheduling/calendar-connections) now recover reliably when access tokens expire. Reconnecting Google Calendar restores missing future events, and failed confirmation syncs include a calendar-file fallback.
+- Transactional emails now use CoachBase and coach branding consistently, and client replies route back into the matching [CoachBase conversation](/docs/features/client-portal/files-and-messages) when possible.
+- Solo plans now include unlimited custom fields, and the [billing page](/docs/features/settings/billing) shows the plan limits CoachBase actually enforces.
+- [Invoice payments](/docs/features/invoices/payments-and-refunds) now receive stronger checkout verification, and accidental overpayments are refunded automatically.
+- New trial accounts receive a welcome email, while accounts with a failed subscription payment receive reminders during the seven-day [grace period](/docs/features/settings/billing).
 
 ## August 7, 2026
 
-- CoachBase now emails you two days before your subscription renews with the renewal date and plan, plus the expected charge and payment method when available. [Manage billing](/docs/features/settings/billing)
+- CoachBase now emails you two days before your [subscription renews](/docs/features/settings/billing) with the renewal date and plan, plus the expected charge and payment method when available.
 - [Analytics](/docs/features/analytics/overview) and [Workflows](/docs/features/workflows/overview) now show a useful preview and plan details when they are not included with your current subscription, instead of sending you away from the page
-- The newest message in each client email thread now appears first. [Learn more](/docs/features/clients/client-details)
-- Fixed an issue that could prevent some client edits from saving when the profile contained an old or removed custom field, and kept single or multi-word names from changing during unrelated edits. [Learn more](/docs/features/clients/client-details)
+- The newest message in each [client email thread](/docs/features/clients/client-details) now appears first.
+- Fixed an issue that could prevent some [client edits](/docs/features/clients/client-details) from saving when the profile contained an old or removed custom field, and kept single or multi-word names from changing during unrelated edits.
 - Fixed the Getting Started button remaining visible over the open checklist
-- Improved internal support and reporting tools so the CoachBase team can answer account and billing questions more quickly
 
 ## July 30, 2026
 
-- Every session now shows the delivery status of its confirmation, reminder, and cancellation emails right on the session page, and you can retry any that failed to send — [Learn more](/docs/features/scheduling/creating-sessions)
+- Every session now shows the delivery status of its confirmation, reminder, and cancellation emails right on the [session page](/docs/features/scheduling/creating-sessions), and you can retry any that failed to send
 - Sessions with no valid recipient now show those emails as "not applicable" rather than reporting them as delivered
-- Outlook calendar events now invite your contact directly, keep you as the organizer, update the attendee when you reschedule, and send a cancellation when you cancel — [Learn more](/docs/features/scheduling/calendar-connections)
-- Scheduling now stops with a clear, actionable message when the contact you picked has no valid email address, instead of failing quietly — [Learn more](/docs/features/scheduling/calendar-connections)
-- Contact name edits now save correctly from both the quick modal and the full edit page, including names with apostrophes and hyphens, and the first and last name fields stay in sync — [Learn more](/docs/features/clients/client-details)
-- Searching, filtering, and sorting your contacts now updates just the results table instead of reloading the page, so the search box keeps up as you type — [Learn more](/docs/features/clients/overview)
-- The "last activity" column now reflects a contact's most recent note even if they have no sessions booked — previously those contacts showed a blank date no matter how recently you'd written a note — [Learn more](/docs/features/clients/overview)
+- Outlook [calendar events](/docs/features/scheduling/calendar-connections) now invite your contact directly, keep you as the organizer, update the attendee when you reschedule, and send a cancellation when you cancel
+- Scheduling now stops with a clear, actionable message when the contact you picked has no valid email address, instead of failing quietly
+- [Contact name edits](/docs/features/clients/client-details) now save correctly from both the quick modal and the full edit page, including names with apostrophes and hyphens, and the first and last name fields stay in sync
+- Searching, filtering, and sorting your [contacts](/docs/features/clients/overview) now updates just the results table instead of reloading the page, so the search box keeps up as you type
+- The "last activity" column now reflects a contact's most recent note even if they have no sessions booked — previously those contacts showed a blank date no matter how recently you'd written a note
 - Fixed the errors that could stop flash messages, toasts, and the new-user trial signup flow from working after navigating between pages
 
 ## July 17, 2026
 
-- Re-running a data import no longer creates duplicate invoices — bring in the same file twice and the second pass adds nothing new — [Learn more](/docs/features/data-import/overview)
-- Imports now finish on a proper completion screen instead of the progress bar snapping back to zero, so you can tell at a glance that everything landed — [Learn more](/docs/features/data-import/overview)
-- You can now delete paid invoices that were imported or manually marked paid, making it easy to clear out duplicates and mistakes — invoices with a real Stripe payment stay protected — [Learn more](/docs/features/invoices/managing-invoices)
-- Outlook calendar invites now carry the video-call join link, both in the event location and as a clickable link in the invite body — [Learn more](/docs/features/scheduling/calendar-connections)
+- Re-running a [data import](/docs/features/data-import/overview) no longer creates duplicate invoices — bring in the same file twice and the second pass adds nothing new
+- [Imports](/docs/features/data-import/overview) now finish on a proper completion screen instead of the progress bar snapping back to zero, so you can tell at a glance that everything landed
+- You can now [delete paid invoices](/docs/features/invoices/managing-invoices) that were imported or manually marked paid, making it easy to clear out duplicates and mistakes — invoices with a real Stripe payment stay protected
+- Outlook [calendar invites](/docs/features/scheduling/calendar-connections) now carry the video-call join link, both in the event location and as a clickable link in the invite body
 
 ## July 16, 2026
 
-- Adding a client whose email address is already on file now shows a clear inline message instead of an error page, and clients with no email at all save without complaint — [Learn more](/docs/features/clients/adding-clients)
-- Completed video sessions no longer sit forever on "Processing your call recording…" when there was never a recording — you'll get a prompt to upload a transcript instead — [Learn more](/docs/features/scheduling/session-notes-insights)
+- [Adding a client](/docs/features/clients/adding-clients) whose email address is already on file now shows a clear inline message instead of an error page, and clients with no email at all save without complaint
+- Completed video sessions no longer sit forever on "Processing your call recording…" when there was never a recording — you'll get a prompt to [upload a transcript](/docs/features/scheduling/session-notes-insights) instead
 - Your dashboard loads noticeably faster — the "Needs Attention" cards now do about a quarter of the database work they used to, and it's the first thing you see after signing in
-- The client portal dashboard pulls up shared files in one pass rather than one at a time — [Learn more](/docs/features/client-portal/dashboard)
+- The [client portal dashboard](/docs/features/client-portal/dashboard) pulls up shared files in one pass rather than one at a time
 
 ## July 7, 2026
 
@@ -60,22 +59,22 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ## June 11, 2026
 
-- Paste a session transcript straight into the AI Insights panel — no file required, so you can try the AI on any past session in seconds — [Learn more](/docs/features/transcript-ai-insights/adding-a-transcript)
-- AI session analysis is now client-aware: it sees open action items from earlier sessions and tells brand-new tasks apart from updates and completions, and nothing on a client's plan changes without your approval — [Learn more](/docs/features/transcript-ai-insights/reviewing-insights)
-- Replacing a transcript no longer wipes your work — completed tasks and existing notes stay put, and only the AI summary is regenerated — [Learn more](/docs/features/transcript-ai-insights/replacing-a-transcript)
+- Paste a [session transcript](/docs/features/transcript-ai-insights/adding-a-transcript) straight into the AI Insights panel — no file required, so you can try the AI on any past session in seconds
+- [AI session analysis](/docs/features/transcript-ai-insights/reviewing-insights) is now client-aware: it sees open action items from earlier sessions and tells brand-new tasks apart from updates and completions, and nothing on a client's plan changes without your approval
+- [Replacing a transcript](/docs/features/transcript-ai-insights/replacing-a-transcript) no longer wipes your work — completed tasks and existing notes stay put, and only the AI summary is regenerated
 - Choosing a transcript file now shows "Uploading…" and then "Analyzing…" so the upload never feels stuck
-- If your subscription lapses you now get a dedicated access-paused screen with a 7-day grace period, a one-click export of your contacts, sessions, and invoices, and continued access to your account settings — [Learn more](/docs/features/settings/billing)
-- Your clients see a neutral "temporarily unavailable" page if your account is paused — never your billing situation — [Learn more](/docs/features/client-portal/overview)
-- Our Privacy Policy now spells out exactly how the Google Calendar integration handles your data: it reads only your busy times to prevent double-booking and writes the sessions you book, and never reads the contents of your events — [Learn more](/docs/features/settings/integrations)
+- If your [subscription lapses](/docs/features/settings/billing) you now get a dedicated access-paused screen with a 7-day grace period, a one-click export of your contacts, sessions, and invoices, and continued access to your account settings
+- Your [clients](/docs/features/client-portal/overview) see a neutral "temporarily unavailable" page if your account is paused — never your billing situation
+- Our Privacy Policy now spells out exactly how the [Google Calendar integration](/docs/features/settings/integrations) handles your data: it reads only your busy times to prevent double-booking and writes the sessions you book, and never reads the contents of your events
 
 ## May 29, 2026
 
-- Text colors and highlights in session notes now stick when you save, and you can clear formatting back to normal — [Learn more](/docs/features/scheduling/session-notes-insights)
+- Text colors and highlights in [session notes](/docs/features/scheduling/session-notes-insights) now stick when you save, and you can clear formatting back to normal
 
 ## April 7, 2026
 
-- Introducing the Practice Health Score — a free 15-question assessment that scores your practice across pipeline, sessions, financial health, client experience, and operations — [Learn more](/docs/features/practice-health-score/overview)
-- Your results include a category breakdown, personalized recommendations, and a shareable link so you can compare notes with other coaches — [Learn more](/docs/features/practice-health-score/understanding-results)
+- Introducing the [Practice Health Score](/docs/features/practice-health-score/overview) — a free 15-question assessment that scores your practice across pipeline, sessions, financial health, client experience, and operations
+- Your [results](/docs/features/practice-health-score/understanding-results) include a category breakdown, personalized recommendations, and a shareable link so you can compare notes with other coaches
 
 ## March 23, 2026
 

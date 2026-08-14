@@ -41,3 +41,7 @@ Global search (⌘K) is powered by FlexSearch. The index is built at compile tim
 - Path alias `@/` maps to `src/`
 - Styling uses Tailwind CSS v4 with `@tailwindcss/postcss`
 - Dark mode supported via `next-themes`
+
+### Changelog entries
+
+When adding to `src/app/docs/changelog/page.md`, link the feature's doc page inline on the words that name it (e.g. `[Contact profiles](/docs/features/clients/client-details)`). Never append a trailing `[Learn more]` / `[Manage billing]` link — the reader can't tell where it goes, and it duplicates a link the entry should already carry. Only include a link when a matching feature doc exists. Skip internal/operational changes (support tooling, reporting, anything only the team running the app would notice); the changelog is for customers.
