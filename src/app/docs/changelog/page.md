@@ -7,6 +7,23 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ---
 
+## August 18, 2026
+
+- Inviting a coach to your [Practice team](/docs/features/settings/team) now works reliably, including on internal and staff-managed accounts where the invite could previously appear to do nothing.
+- The [team member list](/docs/features/settings/team) is cleaner: permissions are simple on and off toggles, each member shows a single role badge, invited members show the date they were invited, and Resend and Remove now live in a compact actions menu.
+- Confirmation and error messages, like "Invitation sent," now reliably appear after an action reloads the page, instead of occasionally being dropped.
+
+## August 17, 2026
+
+- Team invitations now send a one-click join link that adds the coach directly to your [practice team](/docs/features/settings/team), instead of occasionally failing or dropping them into a separate empty account.
+
+## August 15, 2026
+
+- The [client portal](/docs/features/client-portal/overview) now matches the coach app's look and feel, with the same navigation, cards, and page headers, plus a Light, Dark, and System theme switch that's remembered for each client.
+- The [portal dashboard](/docs/features/client-portal/dashboard) keeps Goals and Files together with Messages alongside them. Completing a task or opening a shared file now confirms with a toast, and files you haven't opened show a **New** badge until viewed.
+- Portal visibility settings are shorter and easier to scan, with per-contact controls and a one-click reset back to your account defaults.
+- Coaching engagements now live in their own tab on the [contact page](/docs/features/clients/client-details), alongside Notes, Goals, and Tasks, and the tab no longer renders blank in some cases.
+
 ## August 14, 2026
 
 - [Contact profiles](/docs/features/clients/client-details) now use the modern detail layout by default, include custom fields and blank values, and let you copy email addresses and phone numbers with one click. Your saved layout preferences stay unchanged.
