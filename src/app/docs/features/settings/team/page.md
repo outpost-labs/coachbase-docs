@@ -18,7 +18,7 @@ Team management is available on the Practice plan. On lower tiers, this tab show
 3. Select a role: **Admin** or **Member**
 4. Click **Invite**
 
-The invitee receives an email with a link to join your account. Until they accept, their status shows as **Invited**. You can click **Resend** to send the invitation again.
+The invitee receives an email with a link to join your account. Until they accept, their row shows **Invited** along with the date you sent the invitation. To send it again, open the actions menu (**⋯**) at the end of their row and choose **Resend invite**.
 
 ## Roles
 
@@ -30,11 +30,11 @@ CoachBase uses three roles with different permission levels:
 
 ## Managing permissions
 
-Account owners can customize what each non-owner team member can access. Click **Manage permissions** under a member's entry to toggle individual permissions on or off, then click **Save Permissions**.
+Account owners can customize what each non-owner team member can access. Click **Manage permissions** under a member's entry to switch individual permissions on or off, then click **Save Permissions**. Once a member's permissions differ from their role's defaults, their badge shows **Custom** instead of **Admin** or **Member**.
 
 ## Removing a team member
 
-Click **Remove** next to any non-owner member. A confirmation dialog asks you to confirm. Removing a member revokes their access to the account immediately.
+Open the actions menu (**⋯**) at the end of any non-owner member's row and choose **Remove**. A confirmation dialog asks you to confirm. Removing a member revokes their access to the account immediately.
 
 ## Frequently Asked Questions
 
