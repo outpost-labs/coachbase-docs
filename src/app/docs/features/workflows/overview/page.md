@@ -39,9 +39,9 @@ Each workflow card displays:
 
 When an event occurs in your practice (like creating a new client or completing a session), CoachBase checks for any enabled workflows that match that event. Matching workflows execute their steps in order -- evaluating conditions, waiting through delays, and running actions like sending emails or creating tasks. Each execution is logged so you can review what happened.
 
-## Plan limits
+## Plan availability
 
-The number of workflows you can create depends on your subscription plan. If you reach your limit, you will see a prompt to upgrade. You can always disable unused workflows to make room.
+Workflows are included on the Pro and Practice plans, with no limit on how many you can create. The Solo plan does not include workflows — upgrading to Pro unlocks them.
 
 ## Frequently Asked Questions
 

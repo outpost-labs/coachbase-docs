@@ -7,6 +7,16 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ---
 
+## August 20, 2026
+
+- Simpler pricing: every plan is now billed monthly — Solo $39, Pro $59, Practice $99 — and the plan you pick on our website carries through signup to your [billing page](/docs/features/settings/billing).
+- Solo video calls now run up to 60 minutes (up from 40), enough for a full session, with the same 5-minute heads-up before time is up.
+- The Pro plan now includes unlimited [workflows](/docs/features/workflows/overview) — the previous cap of 10 is gone.
+- The Referrals page has a new payback calculator: pick how many coaches you could invite and see exactly what that's worth against your plan, and your dashboard now shows how close you are to covering your subscription with credits — [Learn more](/docs/features/referrals/overview).
+- If you belong to more than one CoachBase workspace, you can now switch between them from your account menu.
+- Accepting a [team invitation](/docs/features/settings/team) now takes you straight into the workspace that invited you, instead of asking you to pick a plan first.
+- Small fixes: the top navigation behaves on small screens, notifications no longer cover the header, and the Getting Started guide starts collapsed on mobile.
+
 ## August 18, 2026
 
 - Inviting a coach to your [Practice team](/docs/features/settings/team) now works reliably, including on internal and staff-managed accounts where the invite could previously appear to do nothing.
