@@ -13,7 +13,7 @@ At the top of the page, you will find your unique referral link. Click **Copy li
 
 When someone signs up using your link:
 
-- They get their **first month free** on monthly plans, or the equivalent discount on annual plans
+- They get their **first month free**
 - You earn a **$20 credit** once they subscribe to a paid plan
 
 ## Tracking referrals

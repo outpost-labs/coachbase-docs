@@ -16,12 +16,12 @@ If you do not have an active subscription, the billing page shows a prompt to ch
 Once subscribed, the billing page displays:
 
 - **Current Plan** -- Your plan name, renewal date, and status (Active or Trialing)
-- **Change plan** -- Switch between plans or billing intervals (monthly/annual)
+- **Change plan** -- Switch between plans
 - **Payment method** -- The card on file with expiration date
 
 ### Changing your plan
 
-Click **Change plan** to view and compare available plans. You can upgrade, downgrade, or switch between monthly and annual billing. When switching to annual billing, the page shows your estimated savings.
+Click **Change plan** to view and compare available plans. Upgrades take effect immediately; downgrades take effect at your next renewal.
 
 If you have a scheduled plan change, it appears with an arrow showing the transition from your current plan to the upcoming plan and the effective date.
 
@@ -49,8 +49,8 @@ Below the subscription card, a billing history table lists your past charges wit
 
 ## Frequently Asked Questions
 
-**Can I switch from monthly to annual billing?**
-Yes. Click **Change plan** and select the annual option. You save money compared to paying monthly, and the switch takes effect at your next billing cycle.
+**Is annual billing available?**
+All plans are billed monthly. If you are on a legacy annual plan, you keep your current billing until you change plans; you can switch to monthly billing from the billing page, and the switch takes effect at your next renewal. If you would prefer annual billing, contact support.
 
 **What happens when my trial ends?**
 Your card on file is charged automatically. If you cancel before the trial ends, you are not charged.
