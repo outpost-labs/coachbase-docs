@@ -10,7 +10,7 @@ Your public booking page lets clients browse your services, pick a time, and boo
 Find your booking page URL at the top of the **Scheduling** page. The link follows the format:
 
 ```
-https://app.coachbase.com/book/your-slug
+https://coachbaseapp.com/book/your-slug
 ```
 
 Copy the link and share it on your website, social media, or directly with clients.

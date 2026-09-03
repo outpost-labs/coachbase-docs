@@ -13,14 +13,14 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-const canela = localFont({
+// Only a Regular cut of Abordage exists. Declaring the 400-700 range means a
+// heavier heading matches this face instead of getting a synthetic bold.
+const abordage = localFont({
   src: [
-    { path: '../fonts/canelaweb-regular.woff', weight: '400', style: 'normal' },
-    { path: '../fonts/canelaweb-medium.woff', weight: '500', style: 'normal' },
-    { path: '../fonts/canelaweb-bold.woff', weight: '700', style: 'normal' },
+    { path: '../fonts/abordage-regular.woff2', weight: '400 700', style: 'normal' },
   ],
   display: 'swap',
-  variable: '--font-canela',
+  variable: '--font-abordage',
 })
 
 export const metadata = {
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={clsx('h-full antialiased', inter.variable, canela.variable)}
+      className={clsx('h-full antialiased', inter.variable, abordage.variable)}
       suppressHydrationWarning
     >
       <body className="flex min-h-full bg-white dark:bg-slate-900">
