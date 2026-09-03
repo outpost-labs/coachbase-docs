@@ -9,6 +9,7 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ## September 3, 2026
 
+- CoachBase now looks like the site you signed up from: new headings, and quieter background and border colours across the app, your client emails, and the PDFs your clients receive. Nothing moved, and if you have set your own brand colours they are untouched.
 - The [Inbox](/docs/features/inbox/overview) is now a two-pane workspace: your conversations on one side, the open thread on the other, collapsing to a single pane on your phone. New client messages arrive there in real time with a badge and a toast instead of piling up in the bell, and you can mark any message unread to pick a conversation back up from that point.
 - [Browser notifications](/docs/features/notifications/browser-notifications) are here. A prompt beside the bell offers to turn them on; each one shows the client's name and what they wrote, and tapping it opens the conversation. They only fire when you're not looking at CoachBase.
 - Clients get [live chat in the portal](/docs/features/client-portal/files-and-messages): replies appear instantly, older history loads as they scroll up, and an unread badge sits in their navigation. The portal dashboard shows a card whenever there's an unread message from you.
