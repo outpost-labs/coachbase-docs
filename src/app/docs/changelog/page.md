@@ -7,6 +7,29 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ---
 
+## September 3, 2026
+
+- The [Inbox](/docs/features/inbox/overview) is now a two-pane workspace: your conversations on one side, the open thread on the other, collapsing to a single pane on your phone. New client messages arrive there in real time with a badge and a toast instead of piling up in the bell, and you can mark any message unread to pick a conversation back up from that point.
+- [Browser notifications](/docs/features/notifications/browser-notifications) are here. A prompt beside the bell offers to turn them on; each one shows the client's name and what they wrote, and tapping it opens the conversation. They only fire when you're not looking at CoachBase.
+- Clients get [live chat in the portal](/docs/features/client-portal/files-and-messages): replies appear instantly, older history loads as they scroll up, and an unread badge sits in their navigation. The portal dashboard shows a card whenever there's an unread message from you.
+- Clients can now book from a [scheduling page inside the portal](/docs/features/client-portal/sessions) that lists only the session types you've made visible to them.
+- Cap how far ahead clients can book, per [session type](/docs/features/scheduling/meeting-types) (defaults to 28 days), and turn off self-serve cancellation for any session type.
+- [Booking rules](/docs/features/scheduling/meeting-types) are grouped into three plain sections, notice periods read as a deadline with no 30-day cap, and a session type can be any length from 15 minutes up, so 50-minute sessions finally work.
+- [Invoices](/docs/features/invoices/managing-invoices) flip to Overdue on their own once the due date passes, so your dashboard, the invoice list, and the "invoice overdue" workflow trigger all agree.
+- You now get an email when a [client pays](/docs/features/invoices/payments-and-refunds) and another when the payout heads to your bank, and clients get a receipt.
+- Reorder [workflow steps](/docs/features/workflows/creating-workflows) by dragging them.
+- The [video join button](/docs/features/scheduling/creating-sessions) appears once the room opens, 15 minutes before the start, and tells you when that is until then.
+- Session confirmations, reminders, and cancellations no longer show up as system messages in the client's conversation. They go by email only.
+- If a message to a client couldn't be emailed, you can send it again straight from the Inbox, and emailed client replies now show just the reply, not the whole quoted thread.
+- [Booking page](/docs/features/scheduling/booking-page) fixes: the calendar no longer offers a time that overlaps an existing session, a brief timeout at Google or Outlook no longer marks your calendar as disconnected or blanks your page, and the "Cancel this session" link stays hidden when you've turned cancellation off.
+- Smaller fixes: the contact stage dropdown no longer sticks on "Loading stages…", payment receipt links open the invoice instead of an error, subscription receipts and trial-ending emails are correct again, form fields no longer zoom your iPhone, and the workflow edit page no longer crashes on workflows with conditions.
+- **Coming soon** — built and switched off while we finish the details: multi-question intake forms with conditional questions, typed-name electronic signatures on client policies, and a coaching-hours log for ICF credentialing. They'll show up in your account when they're ready.
+
+## August 22, 2026
+
+- Schedule an invoice instead of sending it right away: pick "Send on the due date" when [creating an invoice](/docs/features/invoices/creating-invoices) and CoachBase emails it that morning. Drafts can be scheduled or unscheduled later, and a Send Now button jumps the queue.
+- [Note actions](/docs/features/clients/notes-goals-tasks) on a client's Notes tab now live in one menu, matching Goals and Tasks, and long notes no longer overflow their card.
+
 ## August 20, 2026
 
 - Simpler pricing: every plan is now billed monthly — Solo $39, Pro $59, Practice $99 — and the plan you pick on our website carries through signup to your [billing page](/docs/features/settings/billing).

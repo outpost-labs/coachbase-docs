@@ -29,6 +29,18 @@ export const navigation = [
     ],
   },
   {
+    title: 'Inbox',
+    links: [
+      { title: 'Inbox', href: '/docs/features/inbox/overview' },
+    ],
+  },
+  {
+    title: 'Notifications',
+    links: [
+      { title: 'Browser Notifications', href: '/docs/features/notifications/browser-notifications' },
+    ],
+  },
+  {
     title: 'Scheduling',
     links: [
       { title: 'Scheduling Overview', href: '/docs/features/scheduling/overview' },
