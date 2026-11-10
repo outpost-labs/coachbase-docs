@@ -32,9 +32,13 @@ Below the header card, four key metrics give you a snapshot of the relationship:
 
 The detail page has eight tabs. Your selected tab is remembered when you return.
 
+### Overview
+
+Client records open on the Overview, which gathers their top goals, upcoming sessions, and recent activity in one place.
+
 ### Activity
 
-The default tab shows a chronological timeline of everything that has happened with this client -- sessions, notes, goals, invoices, and payments. Each entry shows the type, a description, and a status badge.
+The Activity tab shows a chronological timeline of everything that has happened with this client -- sessions, notes, goals, invoices, and payments. Each entry shows the type, a description, and a status badge.
 
 ![Activity timeline showing sessions, notes, goals, and invoices](/images/clients/06-client-show-activity-tab.png)
 
@@ -69,6 +73,33 @@ Manage action items and to-dos. See [Notes, Goals & Tasks](/docs/features/client
 ### Files
 
 Upload and share files with this client. Track which files have been shared and when.
+
+## Time zone
+
+Each client can have a time zone of their own. Click **Edit**, choose one from the **Time zone** field, and save. The default is **Not set**.
+
+When a time zone is set, the client's portal and their session reminder emails show times in that zone. Clients can also change it themselves from the **Time zone** menu in the client portal.
+
+If you leave it as **Not set**, CoachBase uses the time zone the client last booked in. If they have never booked, it uses yours.
+
+## Additional session recipient
+
+When two people share one client record, such as a couple you coach together, you can send session emails to both of them.
+
+1. Click **Edit** on the client.
+2. Under **Additional session recipient**, enter a **Recipient name** and **Recipient email**.
+3. Check **Send session notifications to both**.
+4. Save.
+
+Both addresses then receive confirmations, reminders, reschedules, and cancellations, and both appear as guests on the calendar event. The header card shows the recipient with "Session notifications on" or "Session notifications off" beside their email.
+
+{% callout type="warning" %}
+Session emails include the links to join, reschedule, and cancel the session. Only add someone who should be able to do those things.
+{% /callout %}
+
+Billing, signed agreements, and portal access stay with the client's primary email. The additional recipient gets their own confirmation, without the signed agreement.
+
+Unchecking **Send session notifications to both** keeps the recipient's details saved and stops their emails. They are removed from upcoming calendar events the next time your calendar syncs. Emails that were already sent cannot be recalled.
 
 ## Frequently Asked Questions
 

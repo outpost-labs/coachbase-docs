@@ -7,6 +7,26 @@ We ship improvements to CoachBase regularly. Here's what's new.
 
 ---
 
+## November 10, 2026
+
+- Start a new [session type](/docs/features/scheduling/meeting-types) from one of five editable templates, or pick Blank and build your own. You can also add buffer time before and after each session type, so back-to-back bookings leave you room to breathe.
+- Set your [default availability](/docs/features/scheduling/availability) once, then choose which session types follow those shared hours and which keep a schedule of their own.
+- Time zones now follow your client. Each [contact](/docs/features/clients/client-details) has a time zone you can set, or they can pick it themselves in the portal, and their portal and session reminders use it. Your booking page reads your client's real time zone too, with a worldwide list to choose from, so the times they see while booking match their emails and portal.
+- Coaching a couple on one contact record? Add a second name and email under [Contact details](/docs/features/clients/client-details) and turn on "Send session notifications to both". Both get confirmations, reminders, reschedules, and cancellations, and both show up as guests on the calendar event. Invoices and portal access stay with the primary address.
+- Contact records open on a new [Overview](/docs/features/clients/client-details) with top goals, upcoming sessions, and recent activity, plus grouped navigation to everything else. Goals also have a new Financial category.
+- Open [Email History](/docs/features/scheduling/creating-sessions) from a session's Actions menu to see every confirmation, reminder, and cancellation email for that session, and whether each one was sent, is still scheduled, or failed.
+- Send a one-time invoice on a date you choose, separate from the due date. Pick "Send on a specific date" when [creating an invoice](/docs/features/invoices/creating-invoices) or editing a draft, and change or cancel the date any time before it goes out.
+- The [Invoices page](/docs/features/invoices/overview) starts with a summary of your outstanding balance, what's been paid this month, drafts, and active recurring plans. Invoice screens also link straight to your brand settings, and warn you if your logo is an SVG that PDFs and emails can't show.
+- Clients get an email when you [share files](/docs/features/file-library/overview) with them. Share several in a row and they arrive as one email, five minutes after the last one, with a link to each file.
+- [Pro trials](/docs/features/settings/billing) no longer ask for a card. Your 14 days start when you finish onboarding. If you finished onboarding earlier and are eligible, they start the next time you open Billing.
+- A calmer, more consistent look across the app: the dashboard shows what needs attention and this month's numbers in two compact strips, sessions are one list with the date first, every page shares one width, and labels use sentence case. Confirmations and Inbox notifications share one compact toast instead of stacking.
+- Video calls no longer ask you to choose a role, and one shared [transcript](/docs/features/transcript-ai-insights/overview) starts on its own when someone joins, with a retry if it fails. Audio and video are not recorded.
+- CoachBase warns you before you leave a form with unsaved changes.
+- [Workflow](/docs/features/workflows/managing-workflows) fixes: automations now run for triggers that aren't a direct action of yours (an invoice going overdue or paid, a session being booked, a task going overdue), and a run that stops on an unmet condition is recorded as Skipped instead of sitting on Running forever.
+- Payment fixes: [invoices](/docs/features/invoices/managing-invoices) now really do flip to Overdue on their own once the due date passes (the daily check behind it was not running), invoice links keep working after a checkout page expires, a payment made after a failed bank (ACH) attempt is confirmed properly, and booking deposits are charged on your connected Stripe account the same way [invoice payments](/docs/features/invoices/payments-and-refunds) are.
+- Smaller fixes: session times in the [client portal](/docs/features/client-portal/sessions), your contacts list, and the contacts CSV export no longer show in UTC, a temporary Outlook error no longer disconnects your calendar, names typed in all caps are tidied up when saved, the dashboard's "active clients without an upcoming session" count includes only clients, and package details read "1 session" instead of "1 sessions".
+- If you take payments through Stripe, you'll see a one-time notice about Stripe's terms update taking effect January 6, 2027. There's nothing you need to do.
+
 ## September 3, 2026
 
 - CoachBase now looks like the site you signed up from: new headings, and quieter background and border colours across the app, your client emails, and the PDFs your clients receive. Nothing moved, and if you have set your own brand colours they are untouched.

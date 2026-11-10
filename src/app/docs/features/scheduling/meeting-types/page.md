@@ -57,7 +57,8 @@ The detail page shows:
 ## Creating a New Meeting Type
 
 1. Click **New Session Type** on the Scheduling page.
-2. Fill in the following fields:
+2. Under **Start from**, pick a template or **Blank** (see [Starting from a template](#starting-from-a-template)).
+3. Fill in or adjust the following fields:
    - **Title** — The name clients will see (e.g., "60-Minute Coaching Session").
    - **Slug** — The URL-friendly identifier for the booking link.
    - **Duration** — How long the session lasts.
@@ -66,13 +67,43 @@ The detail page shows:
    - **Deposit amount** — An optional upfront payment collected via Stripe at booking.
    - **Intake question** — An optional question clients answer when booking.
    - **Color** — A color for visual identification in your dashboard.
-3. Click **Save** to create the meeting type.
+4. Click **Save** to create the meeting type.
 
 ![New meeting type form](/images/scheduling/05-new-meeting-type-form.png)
 
 {% callout type="warning" %}
 Changing the slug of an existing meeting type will break any previously shared direct booking links for that type. Update links on your website or marketing materials after making changes.
 {% /callout %}
+
+## Starting from a template
+
+Templates fill in a name, duration, description, and intake question so you are not starting from an empty form. Everything a template fills in can be edited before and after you save.
+
+There are five:
+
+- **Discovery Call**
+- **Coaching Session**
+- **Accountability Check-in**
+- **Kickoff Session**
+- **Program Review**
+
+Choose **Blank** to build a session type from scratch.
+
+{% callout type="note" %}
+Only the Discovery Call template is open to public booking by default. The other four start with public booking off, so clients book them from the portal or you schedule them yourself. You can change this in the session type's booking rules.
+{% /callout %}
+
+New CoachBase accounts start with a Discovery Call already created, ready to customize.
+
+## Buffer time
+
+Buffers keep time free around a session without changing its start time or duration. Set **Buffer before** and **Buffer after** on each session type, from **None** up to **60 min**.
+
+With a 15 minute buffer after a 60 minute session, a client who books 10:00 leaves 11:00 to 11:15 unavailable for the next booking.
+
+Buffers apply when clients book from your public booking page or the portal, and when you reschedule a session.
+
+Buffer time is different from **buffer days**, which is the minimum advance notice a client must give.
 
 ## Activating and Deactivating
 

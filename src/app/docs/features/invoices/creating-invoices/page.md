@@ -13,15 +13,23 @@ You can create a new invoice directly from the invoices page using the modal for
 4. Enter the **Amount** (or adjust the pre-filled amount)
 5. Pick a **Due Date**
 6. Add any **Notes** for the client (optional)
-7. Click **Create Invoice**
+7. Choose what happens next (see below)
+8. Click **Create Invoice**
 
 ![New Invoice modal with fields for client, package, amount, due date, and notes](/images/invoices/03-new-invoice-modal.png)
 
-### Send immediately or save as draft
+### Choosing when the invoice is sent
 
-The **Send to client immediately** checkbox is enabled by default. When checked, the invoice is emailed to the client as soon as you create it. If you have Stripe connected, a payment link is included automatically.
+Under **What happens next?**, pick one of four options:
 
-Uncheck this option to save the invoice as a draft. You can review and send it later from the invoice detail page.
+- **Send to contact now** -- The invoice is emailed as soon as you create it. This is the default. If you have Stripe connected, a payment link is included automatically.
+- **Send on the due date** -- CoachBase emails it in the morning on its due date. Requires a due date.
+- **Send on a specific date** -- Choose a send date that is independent of when payment is due. Choosing today sends it now. A future date sends automatically that morning.
+- **Save as draft** -- Nothing is sent. Review and send it later from the invoice detail page.
+
+A custom send date does not change the due date. The send date shows on the invoice list and on the invoice itself.
+
+To change your mind before a scheduled invoice goes out, edit the draft and pick a different date or another option. Choosing **Save as draft** cancels the scheduled send.
 
 ### Linking a package
 

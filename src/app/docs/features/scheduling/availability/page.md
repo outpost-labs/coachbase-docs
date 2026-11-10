@@ -3,9 +3,28 @@ title: "Setting Your Availability"
 description: "Configure your weekly schedule and one-time overrides for each meeting type."
 ---
 
-Each meeting type has its own availability schedule, giving you full control over when clients can book different session types.
+Set your usual working week once as your default availability, then decide which session types follow it and which keep hours of their own.
 
 ![Availability schedule on a meeting type detail page](/images/scheduling/06-availability-schedule.png)
+
+## Default Availability
+
+Default availability is one weekly schedule that any number of session types can share. Change it once and every session type that uses it updates.
+
+1. Go to the **Scheduling** page and find the **Default availability** card.
+2. Open it and add hours for each day you work. Leave a day empty to make it unavailable.
+3. Save. The page lists the session types your changes apply to.
+
+Then open a session type. The availability card at the top says which hours it uses:
+
+- **Using default availability** — Changes to your default hours apply to this session type. Click **Customize these hours** to give it a schedule of its own, starting from a copy of the default.
+- **Using custom availability** — These hours apply only to this session type. Click **Use default availability** to switch back to the shared hours.
+
+Click **Edit default** on that card to change the shared schedule.
+
+{% callout type="note" %}
+Session types you created before default availability existed keep their current hours until you switch them. Existing appointments stay scheduled when you change your default hours.
+{% /callout %}
 
 ## Weekly Availability
 
@@ -72,7 +91,7 @@ Availability overrides apply across all meeting types. Blocking a date for vacat
 ## Frequently Asked Questions
 
 ### Can I set different availability for each meeting type?
-Yes. Each meeting type has its own independent weekly schedule. For example, you might offer discovery calls only on Tuesdays and Thursdays, while weekly coaching sessions are available Monday through Friday.
+Yes. Any session type can use custom availability in place of your default hours. For example, you might offer discovery calls only on Tuesdays and Thursdays, while weekly coaching sessions are available Monday through Friday.
 
 ### How far in advance can clients book?
 This is controlled by the **buffer days** setting on each meeting type. If you set buffer days to 2, clients cannot book sessions less than 2 days in advance.

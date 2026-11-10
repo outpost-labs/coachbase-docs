@@ -69,6 +69,16 @@ Two action icons appear in the top right:
 Cancelling a session cannot be undone. If you need to reschedule, edit the session's date and time instead.
 {% /callout %}
 
+## Email History
+
+To see which emails went out for a session, open the session, click **Actions**, and choose **Email History**.
+
+The list covers the confirmation, reminder, and cancellation emails for that session, and shows whether each one was sent, is still scheduled, or failed. A failed email can be sent again from the session page.
+
+"Sent" means our email provider accepted the message. It does not confirm the email reached the client's inbox.
+
+Sessions created before email tracking began show a note explaining that earlier emails were not recorded.
+
 ## Frequently Asked Questions
 
 ### Can I create a session for a new client who isn't in CoachBase yet?
